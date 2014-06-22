@@ -14,7 +14,7 @@
     :builds [{:id "hue-control"
               :source-paths ["src"]
               :compiler {
-                :output-to "hue_control.js"
+                :output-to "out/hue_control.js"
                 :output-dir "out"
                 :optimizations :none
                 :source-map true}}]})
